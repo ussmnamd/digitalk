@@ -19,6 +19,14 @@ export interface Service {
     features: string[];
     industry?: string[];
     contentBlocks?: ContentBlock[];
+    packages?: {
+        name: string;
+        price: string;
+        platforms: string;
+        posts: string;
+        seo: string;
+        bestFor: string;
+    }[];
 }
 
 export const services: Service[] = [
