@@ -135,45 +135,7 @@ export default function TestimonialsPage() {
                 </div>
             </section>
 
-            {/* Featured Case Study */}
-            <section className="py-16 md:py-24 bg-white">
-                <div className="max-w-7xl mx-auto px-6 md:px-8">
-                    <FadeIn className="max-w-4xl mx-auto">
-                        <Badge variant="green" className="mb-4">Case Study Highlights</Badge>
-                        <Card className="bg-surface-dark text-white border-0 overflow-hidden relative">
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-primary-green/10 rounded-full -mr-32 -mt-32 blur-3xl opacity-50"></div>
-                            <div className="grid md:grid-cols-2 gap-8 items-center relative z-10">
-                                <div>
-                                    <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                                        40% Cost Reduction While Doubling Capacity
-                                    </h2>
-                                    <p className="text-slate-300 mb-6">
-                                        Our remote teams don&apos;t just save money—they improve performance. We helped NZF UK transition their entire CRM operations, resulting in unprecedented efficiency.
-                                    </p>
-                                    <div className="grid grid-cols-2 gap-4">
-                                        <div className="text-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50">
-                                            <div className="text-3xl font-bold text-primary-green">40%</div>
-                                            <div className="text-xs text-slate-400">Cost Savings</div>
-                                        </div>
-                                        <div className="text-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50">
-                                            <div className="text-3xl font-bold text-primary-green">100%</div>
-                                            <div className="text-xs text-slate-400">Reliability</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="hidden md:block">
-                                    <div className="aspect-video bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700">
-                                        <div className="text-center p-8">
-                                            <div className="text-4xl font-bold text-white mb-2 tracking-tight">NZF UK</div>
-                                            <p className="text-slate-400 text-sm">Empowering communities through digital transformation</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </Card>
-                    </FadeIn>
-                </div>
-            </section>
+
         </>
     );
 }

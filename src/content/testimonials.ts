@@ -14,20 +14,20 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
     {
         id: "1",
-        quote: "Thanks to their solutions, bookings soared, and our online reputation improved. They truly turned our business around.",
-        author: "Harris Aslam",
-        role: "Managing Director",
-        company: "Glenshire Group",
+        quote: "Coming Soon",
+        author: "John Doe",
+        role: "Coming Soon",
+        company: "Coming Soon",
         rating: 5,
         service: "tech-staffing",
         industry: "Professional Services"
     },
     {
         id: "2",
-        quote: "Thanks to their development of building NZF's CRM from scratch, my sales have grown, and my business feels more connected to customers than ever.",
-        author: "Dr. Sohail Hanif",
-        role: "CEO",
-        company: "NZF UK",
+        quote: "Coming Soon",
+        author: "John Doe",
+        role: "Coming Soon",
+        company: "Coming Soon",
         rating: 5,
         service: "tech-staffing",
         industry: "Professional Services"

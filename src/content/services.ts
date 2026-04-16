@@ -39,6 +39,7 @@ export const services: Service[] = [
         features: [
             "Google Ads Management",
             "Meta Ads (Facebook & Instagram)",
+            "YouTube Ads & Marketing",
             "Intent-Based Strategy",
             "A/B Testing & Optimization",
             "Real-Time ROI Reporting",
@@ -67,6 +68,15 @@ export const services: Service[] = [
                     { title: "Step 5: Launch & Monitor", description: "Data-driven campaign setup with constant oversight to keep performance high." },
                     { title: "Step 6: Zero-Waste Spending", description: "We stop the \"budget bleed\" by cutting low-performing ads and scaling the winners." },
                     { title: "Step 7: Clear Insights", description: "Honest, detailed reporting that shows exactly how your investment is growing." }
+                ]
+            },
+            {
+                title: 'YouTube Marketing - The "Visual Hook" Strategy',
+                items: [
+                    { title: "Step 1: Video Funnel Mapping", description: "Structuring campaigns to drive awareness, consideration, and conversion." },
+                    { title: "Step 2: Skippable Ad Mastery", description: "Crafting the perfect 5-second hook to prevent skipping." },
+                    { title: "Step 3: Audience Targeting", description: "Placing your ads in front of the right viewers based on search intent and channels." },
+                    { title: "Step 4: Performance Tracking", description: "Measuring view-through conversions and brand lift." }
                 ]
             }
         ]

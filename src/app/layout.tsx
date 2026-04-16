@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "DigiTalk | Remote Staffing & Outstaffing Agency",
   description: "Build world-class remote teams with DigiTalk. We connect ambitious companies with top-tier talent across support, tech, design, and operations.",
   keywords: ["remote staffing", "outstaffing", "BPO", "hiring", "virtual assistants", "customer support", "tech staffing"],
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   alternates: {
     canonical: "https://digitalkpk.com",
   },

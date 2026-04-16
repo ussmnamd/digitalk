@@ -21,7 +21,7 @@ export default function ServicesPage() {
                     <FadeIn className="text-center max-w-3xl mx-auto">
                         <Badge variant="green" className="mb-4">Our Services</Badge>
                         <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-6">
-                            Comprehensive Talent Solutions
+                            Digital Marketing Solutions
                         </h1>
                         <p className="text-lg text-text-secondary">
                             From customer support to technical development, we provide end-to-end digital marketing solutions tailored to your business needs. Build your brand with world-class digital talent.

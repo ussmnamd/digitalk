@@ -5,15 +5,15 @@ import { StaggerChildren, FadeInChild } from "@/components/ui/FadeIn";
 import { Card } from "@/components/ui/Card";
 
 const problems = [
-    { icon: X, text: "Cost overruns and unpredictable expenses" },
-    { icon: X, text: "Slow hiring processes taking months" },
-    { icon: X, text: "Quality risk with unknown candidates" },
+    { icon: X, text: "Wasted ad spend and untrackable ROI" },
+    { icon: X, text: "Generic campaigns that drive low-intent traffic" },
+    { icon: X, text: "Poor conversions and dropping search rankings" },
 ];
 
 const solutions = [
-    { icon: CheckCircle2, text: "Predictible pricing with flexible scaling" },
-    { icon: CheckCircle2, text: "48-hour matching with vetted talent" },
-    { icon: CheckCircle2, text: "98% retention with quality guarantee" },
+    { icon: CheckCircle2, text: "Data-driven campaigns optimized for ROI" },
+    { icon: CheckCircle2, text: "Intent-based targeting for high-quality leads" },
+    { icon: CheckCircle2, text: "Continuous A/B testing and SEO domination" },
 ];
 
 export function ProblemSolution() {

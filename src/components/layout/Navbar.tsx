@@ -44,18 +44,10 @@ export function Navbar() {
             )}
         >
             <div className="max-w-7xl mx-auto px-6 md:px-8">
-                <nav className="flex items-center justify-between h-16 md:h-20">
+                <nav className="flex items-center justify-between h-24 md:h-28">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-green to-primary-green-light flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">D</span>
-                        </div>
-                        <span className={cn(
-                            "font-bold text-xl transition-colors",
-                            applySolidStyles ? "text-text-primary" : "text-white"
-                        )}>
-                            DigiTalk
-                        </span>
+                        <img src="/logo.png" alt="DigiTalk Logo" className={cn("h-16 md:h-20 w-auto object-contain transition-all duration-300", !applySolidStyles && "brightness-0 invert")} />
                     </Link>
 
                     {/* Desktop Navigation */}

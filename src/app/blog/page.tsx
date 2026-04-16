@@ -11,36 +11,36 @@ export const metadata: Metadata = {
 
 const posts = [
     {
-        slug: "outstaffing-vs-outsourcing",
-        title: "Outstaffing vs Outsourcing: What's the Difference?",
-        description: "A comprehensive guide to understanding the two models and choosing the right one for your business.",
-        category: "Remote Work",
-        date: "January 15, 2026",
+        slug: "maximize-roi-performance-marketing",
+        title: "How to Maximize ROI with Performance Marketing",
+        description: "Discover data-driven strategies to reduce ad spend waste and significantly increase your conversion rates padding your bottom line.",
+        category: "Performance Marketing",
+        date: "April 10, 2026",
         readTime: "5 min read"
     },
     {
-        slug: "building-remote-team-culture",
-        title: "Building a Strong Remote Team Culture",
-        description: "Learn how to create a cohesive and productive culture with your distributed team.",
-        category: "Leadership",
-        date: "January 8, 2026",
+        slug: "seo-best-practices-2026",
+        title: "SEO Best Practices for 2026: What Actually Works",
+        description: "A look into Answer Engine Optimization (AEO), AI-driven SEO strategies, and why Core Web Vitals remain non-negotiable.",
+        category: "SEO",
+        date: "April 5, 2026",
         readTime: "7 min read"
     },
     {
-        slug: "hiring-remote-developers",
-        title: "The Complete Guide to Hiring Remote Developers",
-        description: "Best practices for finding, vetting, and onboarding remote technical talent.",
-        category: "Tech Hiring",
-        date: "December 28, 2025",
-        readTime: "10 min read"
+        slug: "youtube-ads-vs-meta-ads",
+        title: "YouTube Ads vs Meta Ads: Where to Invest Your Budget?",
+        description: "Compare the visual hook strategy of YouTube against the punchy direct style of Meta to see what drives the highest intent conversions.",
+        category: "Social Media",
+        date: "March 28, 2026",
+        readTime: "6 min read"
     },
     {
-        slug: "cost-benefits-remote-staffing",
-        title: "Cost Benefits of Remote Staffing: A Deep Dive",
-        description: "How companies are saving up to 60% while accessing global talent pools.",
-        category: "Business",
-        date: "December 15, 2025",
-        readTime: "6 min read"
+        slug: "power-of-digital-pr",
+        title: "The Power of Digital PR and Authority Link Building",
+        description: "How feature placements on top national and global publications can effortlessly boost your domain authority and organic traffic.",
+        category: "Content & PR",
+        date: "March 15, 2026",
+        readTime: "8 min read"
     },
 ];
 
@@ -53,10 +53,10 @@ export default function BlogPage() {
                     <FadeIn className="text-center max-w-3xl mx-auto">
                         <Badge variant="green" className="mb-4">Blog</Badge>
                         <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-6">
-                            Insights & Resources
+                            Digital Marketing Insights
                         </h1>
                         <p className="text-lg text-text-secondary">
-                            Expert perspectives on remote work, staffing strategies, and building high-performing distributed teams.
+                            Expert perspectives on performance marketing, SEO strategies, and driving high-intent traffic to your business.
                         </p>
                     </FadeIn>
                 </div>

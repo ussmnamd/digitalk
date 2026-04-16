@@ -6,10 +6,10 @@ import { Badge } from "@/components/ui/Badge";
 
 export async function generateStaticParams() {
     const slugs = [
-        "outstaffing-vs-outsourcing",
-        "building-remote-team-culture",
-        "hiring-remote-developers",
-        "cost-benefits-remote-staffing"
+        "maximize-roi-performance-marketing",
+        "seo-best-practices-2026",
+        "youtube-ads-vs-meta-ads",
+        "power-of-digital-pr"
     ];
     return slugs.map((slug) => ({ slug }));
 }
@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const { slug } = await params;
 
     const titles: Record<string, string> = {
-        "outstaffing-vs-outsourcing": "Outstaffing vs Outsourcing: What's the Difference?",
-        "building-remote-team-culture": "Building a Strong Remote Team Culture",
-        "hiring-remote-developers": "The Complete Guide to Hiring Remote Developers",
-        "cost-benefits-remote-staffing": "Cost Benefits of Remote Staffing: A Deep Dive",
+        "maximize-roi-performance-marketing": "How to Maximize ROI with Performance Marketing",
+        "seo-best-practices-2026": "SEO Best Practices for 2026: What Actually Works",
+        "youtube-ads-vs-meta-ads": "YouTube Ads vs Meta Ads: Where to Invest Your Budget?",
+        "power-of-digital-pr": "The Power of Digital PR and Authority Link Building",
     };
 
     return {
@@ -46,7 +46,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                             <ArrowLeft className="w-4 h-4" />
                             Back to Blog
                         </Link>
-                        <Badge variant="green" className="mb-4">Remote Work</Badge>
+                        <Badge variant="green" className="mb-4">Digital Marketing</Badge>
                         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-6">
                             {slug.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
                         </h1>
@@ -73,21 +73,21 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                                 Key Takeaways
                             </h2>
                             <ul className="list-disc pl-6 space-y-2 text-text-secondary mb-8">
-                                <li>Understanding the difference between outstaffing and outsourcing models</li>
-                                <li>How to choose the right model for your business needs</li>
-                                <li>Cost considerations and benefits of each approach</li>
-                                <li>Best practices for managing remote teams effectively</li>
+                                <li>Mastering ROI optimization and reducing ad waste</li>
+                                <li>Adapting to AI-driven SEO strategies and Core Web Vitals</li>
+                                <li>Comparing Meta Ads with YouTube's intent-driven structure</li>
+                                <li>Leveraging global publications for massive domain authority</li>
                             </ul>
                             <h2 className="text-2xl font-bold text-text-primary mt-12 mb-4">
                                 Getting Started
                             </h2>
                             <p className="text-text-secondary mb-6">
-                                Ready to explore how remote staffing can transform your business? Our team is here to help you understand the options and find the perfect solution for your needs.
+                                Ready to explore how data-driven digital marketing can transform your business? Our team is here to help you scale your reach and maximize conversions.
                             </p>
                             <div className="bg-green-tint p-6 rounded-xl mt-12">
-                                <h3 className="font-semibold text-text-primary mb-2">Ready to Build Your Dream Team?</h3>
+                                <h3 className="font-semibold text-text-primary mb-2">Ready to Scale Your Brand?</h3>
                                 <p className="text-text-secondary text-sm mb-4">
-                                    Let&apos;s discuss how we can help you find the perfect talent.
+                                    Let&apos;s discuss how we can build a high-performance marketing engine for you.
                                 </p>
                                 <Link
                                     href="/contact"

@@ -9,18 +9,18 @@ import { Button } from "@/components/ui/Button";
 const steps = [
     {
         number: "01",
-        title: "Discovery Call",
-        description: "We learn about your business, team structure, and talent requirements. Understanding your culture and goals helps us find the perfect match."
+        title: "Discovery & Strategy",
+        description: "We dive deep into your business metrics, target audience, and growth objectives to build a customized digital marketing roadmap."
     },
     {
         number: "02",
-        title: "Talent Matching",
-        description: "Our team pre-screens and presents vetted candidates within 48 hours. You'll review profiles, conduct interviews, and select your ideal team members."
+        title: "Campaign Development",
+        description: "Our team crafts engaging ad creatives, highly targeted funnels, and optimized landing pages designed to drive maximum conversions."
     },
     {
         number: "03",
-        title: "Seamless Onboarding",
-        description: "We handle equipment setup, training materials, and integration support. Your new team members hit the ground running from day one."
+        title: "Launch & Optimize",
+        description: "Your campaigns are deployed with continuous real-time tracking, A/B testing, and data-driven adjustments to ensure long-term ROI."
     }
 ];
 
@@ -31,7 +31,7 @@ export function HowItWorks() {
                 <FadeIn className="text-center mb-12">
                     <Badge variant="default" className="mb-4 text-white bg-slate-700">The Process</Badge>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-                        From First Call to First Day in 3 Simple Steps
+                        From First Call to Campaign Launch in 3 Simple Steps
                     </h2>
                 </FadeIn>
 
