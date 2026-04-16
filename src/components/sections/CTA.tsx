@@ -18,10 +18,10 @@ export function CTA() {
             <div className="relative z-10 max-w-4xl mx-auto px-6 md:px-8 text-center">
                 <FadeIn>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-                        Ready to Build Your Dream Team?
+                        Ready to Transform Your Digital Presence?
                     </h2>
                     <p className="text-lg md:text-xl text-slate-400 mb-8 max-w-2xl mx-auto">
-                        Join 100+ companies who scaled smarter with DigiTalk
+                        Join 150+ brands who accelerated their growth with DigiTalk
                     </p>
                     <Link href="/contact">
                         <Button size="lg" className="green-glow group">

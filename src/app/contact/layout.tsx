@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Contact Us | Book a Free Consultation | DigiTalk",
-    description: "Get in touch with DigiTalk. Book a free consultation to discuss your remote staffing needs.",
+    title: "Contact Us | Book a Free Strategy Session | DigiTalk",
+    description: "Get in touch with DigiTalk. Book a free consultation to discuss your digital marketing needs.",
 };
 
 export default function ContactLayout({

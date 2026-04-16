@@ -17,17 +17,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
 
     const serviceRoutes = [
-        "/services/marketing",
-        "/services/customer-support-operations",
-        "/services/tech-staffing",
-        "/services/design-creative",
+        "/services/performance-marketing",
+        "/services/seo-services",
+        "/services/social-media",
+        "/services/content-pr",
+        "/services/web-dev",
+        "/services/media-reach",
     ];
 
     const blogRoutes = [
-        "/blog/outstaffing-vs-outsourcing",
-        "/blog/building-remote-team-culture",
-        "/blog/hiring-remote-developers",
-        "/blog/cost-benefits-remote-staffing",
+        "/blog/maximize-roi-performance-marketing",
+        "/blog/seo-best-practices-2026",
+        "/blog/youtube-ads-vs-meta-ads",
+        "/blog/power-of-digital-pr",
     ];
 
     const allRoutes = [...staticRoutes, ...serviceRoutes, ...blogRoutes];

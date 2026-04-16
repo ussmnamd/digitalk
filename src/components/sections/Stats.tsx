@@ -4,10 +4,10 @@ import { FadeIn } from "@/components/ui/FadeIn";
 import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 
 const stats = [
-    { value: 200, suffix: "+", label: "Professionals Placed" },
-    { value: 40, suffix: "%", label: "Avg Cost Savings" },
-    { value: 48, suffix: "hr", label: "Matching Time" },
-    { value: 98, suffix: "%", label: "Client Retention" },
+    { value: 1200, suffix: "+", label: "Projects Delivered" },
+    { value: 150, suffix: "%", label: "Avg ROI Increase" },
+    { value: 24, suffix: "hr", label: "Strategy Setup" },
+    { value: 10, suffix: "k+", label: "Leads Generated" },
 ];
 
 export function Stats() {

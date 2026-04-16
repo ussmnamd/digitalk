@@ -5,8 +5,8 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 
 export const metadata: Metadata = {
-    title: "Blog | Remote Work & Staffing Insights | DigiTalk",
-    description: "Discover insights on remote staffing, hiring best practices, and building high-performing distributed teams.",
+    title: "Blog | Digital Marketing & SEO Insights | DigiTalk",
+    description: "Discover insights on performance marketing, SEO best practices, and building high-growth digital brands.",
 };
 
 const posts = [

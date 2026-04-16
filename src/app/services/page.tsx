@@ -8,8 +8,8 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-    title: "Our Services | Remote Staffing Solutions | DigiTalk",
-    description: "Discover our comprehensive remote staffing solutions. From customer support to tech engineering, design, and back-office operations.",
+    title: "Our Services | Digital Marketing Solutions | DigiTalk",
+    description: "Discover our comprehensive digital marketing solutions. From performance marketing to SEO, social media, and content strategy.",
 };
 
 export default function ServicesPage() {
@@ -24,7 +24,7 @@ export default function ServicesPage() {
                             Digital Marketing Solutions
                         </h1>
                         <p className="text-lg text-text-secondary">
-                            From customer support to technical development, we provide end-to-end digital marketing solutions tailored to your business needs. Build your brand with world-class digital talent.
+                            From performance marketing to SEO and content strategy, we provide end-to-end digital marketing solutions tailored to your business needs. Build your brand with world-class digital expertise.
                         </p>
                     </FadeIn>
                 </div>

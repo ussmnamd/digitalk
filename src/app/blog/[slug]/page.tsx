@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
     return {
         title: `${titles[slug] || "Blog Post"} | DigiTalk`,
-        description: "Read our latest insights on remote work and staffing.",
+        description: "Read our latest insights on digital marketing and SEO strategy.",
     };
 }
 

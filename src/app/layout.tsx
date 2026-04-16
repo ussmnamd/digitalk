@@ -13,9 +13,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DigiTalk | Remote Staffing & Outstaffing Agency",
-  description: "Build world-class remote teams with DigiTalk. We connect ambitious companies with top-tier talent across support, tech, design, and operations.",
-  keywords: ["remote staffing", "outstaffing", "BPO", "hiring", "virtual assistants", "customer support", "tech staffing"],
+  title: "DigiTalk | Full-Service Digital Marketing Agency",
+  description: "Scale your brand with DigiTalk's data-driven digital marketing solutions. Specialized in SEO, Performance Marketing, and Social Media Strategy.",
+  keywords: ["digital marketing", "SEO", "PPC", "Social Media Marketing", "Content Strategy", "Performance Marketing", "Paid Ads"],
   icons: {
     icon: "/logo.png",
     shortcut: "/logo.png",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     canonical: "https://digitalkpk.com",
   },
   openGraph: {
-    title: "DigiTalk | Remote Staffing & Outstaffing Agency",
-    description: "Build world-class remote teams with DigiTalk. We connect ambitious companies with top-tier talent.",
+    title: "DigiTalk | Full-Service Digital Marketing Agency",
+    description: "Scale your brand with DigiTalk's data-driven digital marketing solutions. Specialized in SEO, Performance Marketing, and Social Media Strategy.",
     url: "https://digitalkpk.com",
     siteName: "DigiTalk",
     locale: "en_US",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DigiTalk | Remote Staffing & Outstaffing Agency",
-    description: "Build world-class remote teams with DigiTalk.",
+    title: "DigiTalk | Full-Service Digital Marketing Agency",
+    description: "Scale your brand with DigiTalk's data-driven digital marketing solutions.",
   },
   robots: {
     index: true,
@@ -53,7 +53,7 @@ export default function RootLayout({
     "@type": "Organization",
     name: "DigiTalk",
     url: "https://digitalkpk.com",
-    description: "Build world-class remote teams with DigiTalk. We connect ambitious companies with top-tier talent across support, tech, design, and operations.",
+    description: "Scale your brand with DigiTalk's data-driven digital marketing solutions. Specialized in SEO, Performance Marketing, and Social Media Strategy.",
     foundingDate: "2020",
     contactPoint: {
       "@type": "ContactPoint",

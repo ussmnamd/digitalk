@@ -15,18 +15,18 @@ export const metadata: Metadata = {
 const values = [
     {
         icon: Target,
-        title: "Quality First",
-        description: "We never compromise on talent quality. Every candidate is rigorously vetted to ensure they meet our high standards."
+        title: "Strategy First",
+        description: "We never compromise on strategic depth. Every campaign is meticulously planned to ensure it meets our high performance standards."
     },
     {
         icon: Users,
         title: "Partnership",
-        description: "We see ourselves as an extension of your team, not just a vendor. Your success is our success."
+        description: "We see ourselves as an extension of your marketing department. Your growth is our primary objective."
     },
     {
         icon: Heart,
         title: "Transparency",
-        description: "Clear communication, honest pricing, and straightforward processes. No hidden fees or surprises."
+        description: "Clear reporting, honest insights, and straightforward attribution. No vanity metrics or hidden data."
     }
 ];
 
@@ -109,20 +109,20 @@ export default function AboutPage() {
                                 <div>
                                     <div className="grid grid-cols-2 gap-8">
                                         <div className="space-y-2">
-                                            <div className="text-5xl font-extrabold text-text-primary">50+</div>
-                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Partner Companies</div>
+                                            <div className="text-5xl font-extrabold text-text-primary">150+</div>
+                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Active Clients</div>
                                         </div>
                                         <div className="space-y-2">
-                                            <div className="text-5xl font-extrabold text-text-primary">400+</div>
-                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Happy Clients</div>
+                                            <div className="text-5xl font-extrabold text-text-primary">1200+</div>
+                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Projects Delivered</div>
                                         </div>
                                         <div className="space-y-2">
                                             <div className="text-5xl font-extrabold text-text-primary">2015</div>
                                             <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Established</div>
                                         </div>
                                         <div className="space-y-2">
-                                            <div className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-green to-primary-green-light">Global</div>
-                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Reach</div>
+                                            <div className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary-green to-primary-green-light">$5M+</div>
+                                            <div className="text-sm font-medium text-text-muted uppercase tracking-wider">Ad Spend Managed</div>
                                         </div>
                                     </div>
                                 </div>

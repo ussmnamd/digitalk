@@ -75,10 +75,10 @@ export function Hero() {
                     <div className="bg-surface-dark/80 backdrop-blur-sm rounded-2xl border border-slate-700/50 p-4 md:p-8 max-w-5xl mx-auto">
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
                             {[
-                                { label: "Happy Clients", value: "400+" },
-                                { label: "Partner Companies", value: "50+" },
+                                { label: "Projects Delivered", value: "1200+" },
+                                { label: "Active Clients", value: "150+" },
                                 { label: "Founded", value: "2015" },
-                                { label: "Reach", value: "Global" }
+                                { label: "Managed Spend", value: "$5M+" }
                             ].map((stat, i) => (
                                 <div key={i} className="text-center">
                                     <div className="text-2xl md:text-4xl font-bold text-primary-green mb-1">{stat.value}</div>

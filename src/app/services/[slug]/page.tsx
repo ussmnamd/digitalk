@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
 
     return {
-        title: `${service.title} | Remote Staffing Solutions | DigiTalk`,
+        title: `${service.title} | Digital Marketing Solutions | DigiTalk`,
         description: service.description,
     };
 }
@@ -272,10 +272,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 <div className="max-w-4xl mx-auto px-6 md:px-8 text-center">
                     <FadeIn>
                         <h2 className="text-2xl md:text-3xl font-bold text-text-primary mb-4">
-                            Ready to build your {service.title.toLowerCase()} team?
+                            Ready to Launch Your {service.title} Campaigns?
                         </h2>
                         <p className="text-text-secondary mb-6">
-                            Let&apos;s discuss how we can help you find the perfect talent.
+                            Let&apos;s discuss how we can help you find the perfect digital strategy.
                         </p>
                         <Link href="/contact">
                             <Button size="lg">
