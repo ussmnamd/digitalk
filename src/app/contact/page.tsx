@@ -53,8 +53,24 @@ export default function ContactPage() {
         resolver: zodResolver(formSchema),
     });
 
-    const onSubmit = async (_data: FormData) => {
+    const onSubmit = async (data: FormData) => {
         setIsLoading(true);
+        const serviceLabel = services.find((s) => s.value === data.service)?.label ?? data.service;
+        const hearLabel = hearOptions.find((o) => o.value === data.hearAbout)?.label ?? data.hearAbout ?? "";
+        const subject = `New enquiry from ${data.fullName} (${data.companyName})`;
+        const bodyLines = [
+            `Full Name: ${data.fullName}`,
+            `Company: ${data.companyName}`,
+            `Email: ${data.email}`,
+            `Phone: ${data.phone ?? ""}`,
+            `Service Interest: ${serviceLabel}`,
+            `Heard via: ${hearLabel}`,
+            "",
+            "Message:",
+            data.message,
+        ];
+        const mailto = `mailto:talkdigi76@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyLines.join("\n"))}`;
+        window.location.href = mailto;
         setIsSubmitted(true);
         setIsLoading(false);
         reset();
@@ -241,8 +257,8 @@ export default function ContactPage() {
                                             <Mail className="w-5 h-5 text-primary-green shrink-0 mt-0.5" />
                                             <div>
                                                 <p className="font-medium text-text-primary">Email</p>
-                                                <a href="mailto:Digitalkpk.official@gmail.com" className="text-text-secondary hover:text-primary-green break-all">
-                                                    Digitalkpk.official@gmail.com
+                                                <a href="mailto:talkdigi76@gmail.com" className="text-text-secondary hover:text-primary-green break-all">
+                                                    talkdigi76@gmail.com
                                                 </a>
                                             </div>
                                         </div>
@@ -250,8 +266,8 @@ export default function ContactPage() {
                                             <Phone className="w-5 h-5 text-primary-green shrink-0 mt-0.5" />
                                             <div>
                                                 <p className="font-medium text-text-primary">Phone</p>
-                                                <a href="tel:+923214495173" className="text-text-secondary hover:text-primary-green">
-                                                    +92 (321) 4495173
+                                                <a href="tel:+923323999370" className="text-text-secondary hover:text-primary-green">
+                                                    +92-332-3999370
                                                 </a>
                                             </div>
                                         </div>
@@ -259,7 +275,7 @@ export default function ContactPage() {
                                             <MapPin className="w-5 h-5 text-primary-green shrink-0 mt-0.5" />
                                             <div>
                                                 <p className="font-medium text-text-primary">Locations</p>
-                                                <p className="text-text-secondary">Global Reach - Operations in Pakistan</p>
+                                                <p className="text-text-secondary">UK · United States · Australia</p>
                                             </div>
                                         </div>
                                     </div>

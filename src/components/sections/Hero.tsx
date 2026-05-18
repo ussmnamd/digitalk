@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Star, ChevronDown } from "lucide-react";
+import { ArrowRight, Star, ChevronDown, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
 
 export function Hero() {
     return (
@@ -25,9 +24,20 @@ export function Hero() {
                     className="space-y-8"
                 >
                     {/* Eyebrow */}
-                    <Badge variant="green" className="mb-4">
-                        Digital Marketing Agency
-                    </Badge>
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.5, delay: 0.1 }}
+                        className="inline-flex mb-4"
+                    >
+                        <span className="group relative inline-flex items-center gap-2 px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-[0.2em] text-white bg-gradient-to-r from-primary-green/20 via-primary-green-light/20 to-primary-green/20 backdrop-blur-md border border-primary-green/30 shadow-[0_0_30px_-5px_rgba(34,197,94,0.4)]">
+                            <span className="absolute inset-0 rounded-full bg-gradient-to-r from-primary-green/0 via-primary-green/10 to-primary-green/0 blur-xl opacity-70" aria-hidden="true" />
+                            <Sparkles className="w-3.5 h-3.5 text-primary-green-light relative z-10" />
+                            <span className="relative z-10 bg-gradient-to-r from-white via-primary-green-light to-white bg-clip-text text-transparent">
+                                Digital Marketing Agency
+                            </span>
+                        </span>
+                    </motion.div>
 
                     {/* Headline */}
                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold text-white leading-tight max-w-4xl mx-auto">

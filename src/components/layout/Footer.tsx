@@ -86,8 +86,9 @@ export function Footer() {
                             ))}
                         </ul>
                         <div className="mt-6 pt-6 border-t border-slate-800">
-                            <p className="text-xs text-slate-500 uppercase tracking-wider mb-2">Founder</p>
+                            <p className="text-xs text-slate-500 uppercase tracking-wider mb-2">Founders</p>
                             <p className="text-sm text-slate-300">Kamran Tayyab</p>
+                            <p className="text-sm text-slate-300">Ali Imran Malik</p>
                         </div>
                     </div>
 
@@ -97,17 +98,15 @@ export function Footer() {
                         <ul className="space-y-3">
                             <li className="flex items-start gap-3 text-slate-400 text-sm">
                                 <Mail className="w-5 h-5 text-primary-green shrink-0 mt-0.5" />
-                                <a href="mailto:Digitalkpk.official@gmail.com" className="hover:text-primary-green transition-colors break-all">
-                                    Digitalkpk.official@gmail.com
+                                <a href="mailto:talkdigi76@gmail.com" className="hover:text-primary-green transition-colors break-all">
+                                    talkdigi76@gmail.com
                                 </a>
                             </li>
                             <li className="flex items-start gap-3 text-slate-400 text-sm">
                                 <MapPin className="w-5 h-5 text-primary-green shrink-0 mt-0.5" />
-                                <div className="space-y-1">
-                                    <p className="font-semibold text-white text-xs uppercase tracking-wider mb-1">Operations</p>
-                                    <p>Pakistan</p>
-                                    <p className="mt-2">+92 (321) 4495173</p>
-                                </div>
+                                <a href="tel:+923323999370" className="hover:text-primary-green transition-colors">
+                                    +92-332-3999370
+                                </a>
                             </li>
                         </ul>
                     </div>

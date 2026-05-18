@@ -32,11 +32,13 @@ const values = [
 
 const team = [
     { name: "Kamran Tayyab", role: "Founder", location: "Global" },
+    { name: "Ali Imran Malik", role: "Founder", location: "Global" },
 ];
 
 const locations = [
     { name: "United Kingdom", flag: "🇬🇧", description: "Global HQ" },
-    { name: "Pakistan", flag: "🇵🇰", description: "Operations Hub" },
+    { name: "United States", flag: "🇺🇸", description: "Regional Office" },
+    { name: "Australia", flag: "🇦🇺", description: "Regional Office" },
 ];
 
 export default function AboutPage() {
@@ -132,18 +134,29 @@ export default function AboutPage() {
                                     <p className="text-2xl md:text-3xl font-medium text-text-primary leading-tight italic mb-8">
                                         As an agency working with clients and companies, directly and indirectly. We have managed to accumulate a handsome amount of client profile and achieve positive, fruitful and excellent milestones.
                                     </p>
-                                    <div className="flex items-center gap-4">
-                                        <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary-green shadow-lg relative shrink-0">
-                                            <Image
-                                                src="/assets/team/founder.jpg"
-                                                alt="Kamran Tayyab"
-                                                fill
-                                                className="object-cover"
-                                            />
+                                    <div className="flex flex-col sm:flex-row sm:items-center gap-6">
+                                        <div className="flex items-center gap-4">
+                                            <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-primary-green shadow-lg relative shrink-0">
+                                                <Image
+                                                    src="/assets/team/founder.jpg"
+                                                    alt="Kamran Tayyab"
+                                                    fill
+                                                    className="object-cover"
+                                                />
+                                            </div>
+                                            <div>
+                                                <div className="font-bold text-text-primary text-lg leading-tight">Kamran Tayyab</div>
+                                                <div className="text-primary-green font-medium">Founder, DigiTalk</div>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <div className="font-bold text-text-primary text-lg leading-tight">Kamran Tayyab</div>
-                                            <div className="text-primary-green font-medium">Founder, DigiTalk</div>
+                                        <div className="flex items-center gap-4">
+                                            <div className="w-16 h-16 rounded-full border-2 border-primary-green shadow-lg shrink-0 bg-gradient-to-br from-primary-green to-primary-green-light flex items-center justify-center text-white font-bold text-lg">
+                                                AM
+                                            </div>
+                                            <div>
+                                                <div className="font-bold text-text-primary text-lg leading-tight">Ali Imran Malik</div>
+                                                <div className="text-primary-green font-medium">Founder, DigiTalk</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
